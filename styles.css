@@ -94,6 +94,8 @@ h1 { margin: 0; font-size: clamp(52px, 7.5vw, 112px); line-height: 0.92; font-we
 .book__cta:hover { background: var(--paper); color: var(--marble); }
 
 /* Footer */
+.foot a { text-decoration: none; padding-block: 12px; margin-block: -12px; }
+.foot a:hover { text-decoration: underline; }
 .foot { padding-block: 28px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; }
 
 @media (max-width: 700px) {
